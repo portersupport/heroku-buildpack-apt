@@ -1,0 +1,15 @@
+api = "0.4"
+
+[buildpack]
+id = "portersupport/heroku-buildpack-apt"
+version = "0.2.2"
+name = "apt Packages Buildpack"
+homepage = "https://github.com/portersupport/heroku-buildpack-apt"
+description = "Installs apt packages for further builds and runtime"
+keywords = ["apt", "packages", "ubuntu"]
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
